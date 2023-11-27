@@ -9,6 +9,7 @@ import Result from './components/Result'
 import SacW from './components/SacW'
 import Steps from './components/Steps'
 import {calc_max} from './utils/Algorithme'
+import Footer from './components/Footer'
 function App() {
   const [items , setItems] = useState<{ weight: number; value: number; id: number }[]>([])
   const SacWieght: number = 6;
@@ -26,6 +27,7 @@ function App() {
        <SacW MaxW={MaxW} setWeight={setWeight}/>
        </div>
        {AlgoLanched && <Result items={items} Mweight={MaxW}/>}
+       <Footer/>
     </div>
   )
 }

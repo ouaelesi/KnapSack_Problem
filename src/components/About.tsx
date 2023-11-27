@@ -3,7 +3,7 @@ import sac from "../assets/sac.png";
 import exmpl from "../assets/exmpl.png";
 const About = () => {
   return (
-    <div className="px-32 h-[700px]">
+    <div className="px-32 h-[700px]" id="description">
       <div className="text-5xl text-center py-10 font-extrabold uppercase">
         Déscription du probléme
       </div>
