@@ -107,12 +107,15 @@ function ItemsForm({
         <div className="px-4 py-2 my-2 rounded-md border border-stone-300">
           Le Poids maximum du sac a dos: <b>{MaxW}KG</b>
         </div>
-        <button
-          className="block bg-stone-500 text-white w-full py-2 rounded-md mt-5"
-          onClick={() => setLaunched(true)}
-        >
-          Lancer le programme
-        </button>
+        <a href="#solution">
+          <button
+            className="block bg-stone-500 text-white w-full py-2 rounded-md mt-5"
+            onClick={() => setLaunched(true)}
+          >
+            Lancer le programme
+          </button>
+        </a>
+
         <button
           className="block  px-3 py-2 underline"
           onClick={() => setStep(1)}

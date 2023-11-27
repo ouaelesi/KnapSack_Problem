@@ -14,7 +14,7 @@ function Result({ items, Mweight }: AppProps) {
     MaxWeight += items[id].weight;
   });
   return (
-    <div className="py-10 px-32">
+    <div className="py-10 px-32" id="solution">
       <div className="text-5xl text-center py-10 font-extrabold uppercase">
         Sollution !!
       </div>
